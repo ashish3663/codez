@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    num = True
     return "Hello world!!!"
 
 
