@@ -10,5 +10,5 @@ def login():
     #ip = '10.0.0.1'  
     #port = '9000' 
 
-    result = requests.post(f'http://{ip}:{port}', data={'username': username, 'password': password})  # Send POST request
+    requests.post(f'http://{ip}:{port}', data={'username': username, 'password': password}) 
     return 'Login request sent'
