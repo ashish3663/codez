@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_REPO = "kunaljn/avert"
-        CONTAINER_NAME = "flask-hello-world"
+        CONTAINER_NAME = "flask-AVERT-DEMO"
         // DOCKERHUB_CREDENTIALS=credentials('dockerhub-credentials')
     }
     
