@@ -7,7 +7,8 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     num = True
-    return "Hello {}".format()
+    #http://20.197.47.170:9000/
+    return "Hello world"
 
 
 if __name__ == "__main__":
