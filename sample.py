@@ -7,8 +7,8 @@ app = Flask(__name__)
 def login():
     username = 'ashish'
     password = 'ashish@123'
-    #ip = '10.0.0.1'  
-    #port = '9000' 
+    ip = '10.0.0.1'  
+    port = '9000' 
 
     response = requests.post(f'http://{ip}:{port}', data={'username': username, 'password': password})  # Send POST request
     return 'Login request sent'
